@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "Dr6iGMrvAsXjtNLQlWPPzE6+/z1rJnwzOA7Tb0D3XLc=",
+  "Source": "ConversationBackend",
+  "BasePath": "_content/ConversationBackend",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}

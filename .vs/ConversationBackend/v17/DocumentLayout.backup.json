@@ -1,0 +1,165 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\akilafo\\Eclipse\\CustomerOnboarding\\BackEnd\\ConversationBackend\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{C3E8D524-A06A-16A3-3920-50640DD699C1}|ConversationBackend.csproj|c:\\users\\akilafo\\eclipse\\customeronboarding\\backend\\conversationbackend\\services\\dataseeder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C3E8D524-A06A-16A3-3920-50640DD699C1}|ConversationBackend.csproj|solutionrelative:services\\dataseeder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C3E8D524-A06A-16A3-3920-50640DD699C1}|ConversationBackend.csproj|c:\\users\\akilafo\\eclipse\\customeronboarding\\backend\\conversationbackend\\services\\mongodbservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C3E8D524-A06A-16A3-3920-50640DD699C1}|ConversationBackend.csproj|solutionrelative:services\\mongodbservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C3E8D524-A06A-16A3-3920-50640DD699C1}|ConversationBackend.csproj|c:\\users\\akilafo\\eclipse\\customeronboarding\\backend\\conversationbackend\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C3E8D524-A06A-16A3-3920-50640DD699C1}|ConversationBackend.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C3E8D524-A06A-16A3-3920-50640DD699C1}|ConversationBackend.csproj|c:\\users\\akilafo\\eclipse\\customeronboarding\\backend\\conversationbackend\\models\\conversation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C3E8D524-A06A-16A3-3920-50640DD699C1}|ConversationBackend.csproj|solutionrelative:models\\conversation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C3E8D524-A06A-16A3-3920-50640DD699C1}|ConversationBackend.csproj|c:\\users\\akilafo\\eclipse\\customeronboarding\\backend\\conversationbackend\\models\\validation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C3E8D524-A06A-16A3-3920-50640DD699C1}|ConversationBackend.csproj|solutionrelative:models\\validation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C3E8D524-A06A-16A3-3920-50640DD699C1}|ConversationBackend.csproj|c:\\users\\akilafo\\eclipse\\customeronboarding\\backend\\conversationbackend\\models\\option.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C3E8D524-A06A-16A3-3920-50640DD699C1}|ConversationBackend.csproj|solutionrelative:models\\option.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C3E8D524-A06A-16A3-3920-50640DD699C1}|ConversationBackend.csproj|c:\\users\\akilafo\\eclipse\\customeronboarding\\backend\\conversationbackend\\models\\question.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C3E8D524-A06A-16A3-3920-50640DD699C1}|ConversationBackend.csproj|solutionrelative:models\\question.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C3E8D524-A06A-16A3-3920-50640DD699C1}|ConversationBackend.csproj|c:\\users\\akilafo\\eclipse\\customeronboarding\\backend\\conversationbackend\\controllers\\conversationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C3E8D524-A06A-16A3-3920-50640DD699C1}|ConversationBackend.csproj|solutionrelative:controllers\\conversationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C3E8D524-A06A-16A3-3920-50640DD699C1}|ConversationBackend.csproj|c:\\users\\akilafo\\eclipse\\customeronboarding\\backend\\conversationbackend\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{C3E8D524-A06A-16A3-3920-50640DD699C1}|ConversationBackend.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "DataSeeder.cs",
+              "DocumentMoniker": "C:\\Users\\akilafo\\Eclipse\\CustomerOnboarding\\BackEnd\\ConversationBackend\\Services\\DataSeeder.cs",
+              "RelativeDocumentMoniker": "Services\\DataSeeder.cs",
+              "ToolTip": "C:\\Users\\akilafo\\Eclipse\\CustomerOnboarding\\BackEnd\\ConversationBackend\\Services\\DataSeeder.cs",
+              "RelativeToolTip": "Services\\DataSeeder.cs",
+              "ViewState": "AgIAACoAAAAAAAAAAAAYwDoAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-29T09:14:40.133Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ConversationController.cs",
+              "DocumentMoniker": "C:\\Users\\akilafo\\Eclipse\\CustomerOnboarding\\BackEnd\\ConversationBackend\\Controllers\\ConversationController.cs",
+              "RelativeDocumentMoniker": "Controllers\\ConversationController.cs",
+              "ToolTip": "C:\\Users\\akilafo\\Eclipse\\CustomerOnboarding\\BackEnd\\ConversationBackend\\Controllers\\ConversationController.cs",
+              "RelativeToolTip": "Controllers\\ConversationController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-29T06:56:51.735Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\akilafo\\Eclipse\\CustomerOnboarding\\BackEnd\\ConversationBackend\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\akilafo\\Eclipse\\CustomerOnboarding\\BackEnd\\ConversationBackend\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACQAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-29T06:48:19.178Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MongoDbService.cs",
+              "DocumentMoniker": "C:\\Users\\akilafo\\Eclipse\\CustomerOnboarding\\BackEnd\\ConversationBackend\\Services\\MongoDbService.cs",
+              "RelativeDocumentMoniker": "Services\\MongoDbService.cs",
+              "ToolTip": "C:\\Users\\akilafo\\Eclipse\\CustomerOnboarding\\BackEnd\\ConversationBackend\\Services\\MongoDbService.cs",
+              "RelativeToolTip": "Services\\MongoDbService.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAB4AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-29T06:41:52.837Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\akilafo\\Eclipse\\CustomerOnboarding\\BackEnd\\ConversationBackend\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "C:\\Users\\akilafo\\Eclipse\\CustomerOnboarding\\BackEnd\\ConversationBackend\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-04-29T06:39:11.589Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Option.cs",
+              "DocumentMoniker": "C:\\Users\\akilafo\\Eclipse\\CustomerOnboarding\\BackEnd\\ConversationBackend\\Models\\Option.cs",
+              "RelativeDocumentMoniker": "Models\\Option.cs",
+              "ToolTip": "C:\\Users\\akilafo\\Eclipse\\CustomerOnboarding\\BackEnd\\ConversationBackend\\Models\\Option.cs",
+              "RelativeToolTip": "Models\\Option.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-29T06:35:15.495Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Validation.cs",
+              "DocumentMoniker": "C:\\Users\\akilafo\\Eclipse\\CustomerOnboarding\\BackEnd\\ConversationBackend\\Models\\Validation.cs",
+              "RelativeDocumentMoniker": "Models\\Validation.cs",
+              "ToolTip": "C:\\Users\\akilafo\\Eclipse\\CustomerOnboarding\\BackEnd\\ConversationBackend\\Models\\Validation.cs",
+              "RelativeToolTip": "Models\\Validation.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-29T06:33:49.768Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Question.cs",
+              "DocumentMoniker": "C:\\Users\\akilafo\\Eclipse\\CustomerOnboarding\\BackEnd\\ConversationBackend\\Models\\Question.cs",
+              "RelativeDocumentMoniker": "Models\\Question.cs",
+              "ToolTip": "C:\\Users\\akilafo\\Eclipse\\CustomerOnboarding\\BackEnd\\ConversationBackend\\Models\\Question.cs",
+              "RelativeToolTip": "Models\\Question.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-29T06:27:58.651Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Conversation.cs",
+              "DocumentMoniker": "C:\\Users\\akilafo\\Eclipse\\CustomerOnboarding\\BackEnd\\ConversationBackend\\Models\\Conversation.cs",
+              "RelativeDocumentMoniker": "Models\\Conversation.cs",
+              "ToolTip": "C:\\Users\\akilafo\\Eclipse\\CustomerOnboarding\\BackEnd\\ConversationBackend\\Models\\Conversation.cs",
+              "RelativeToolTip": "Models\\Conversation.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAABMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-29T06:24:06.947Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
