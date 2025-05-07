@@ -20,7 +20,7 @@ builder.Services.AddCors(options =>
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 builder.Services.AddSingleton<MongoDbService>();
-builder.Services.AddTransient<DataSeeder>();
+//builder.Services.AddTransient<DataSeeder>();
 
 var app = builder.Build();
 
@@ -46,8 +46,8 @@ using (var scope = app.Services.CreateScope())
 {
     var serviceProvider = scope.ServiceProvider; // Correct variable name
     var mongoDbService = serviceProvider.GetRequiredService<MongoDbService>();
-    var dataSeeder = new DataSeeder(mongoDbService);
-    await dataSeeder.SeedData();
+    //var dataSeeder = new DataSeeder(mongoDbService);
+    //await dataSeeder.SeedData();
 }
 
 await app.RunAsync();

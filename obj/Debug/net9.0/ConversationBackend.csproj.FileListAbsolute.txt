@@ -40,3 +40,4 @@ C:\Users\akilafo\Eclipse\CustomerOnboarding\BackEnd\ConversationBackend\obj\Debu
 C:\Users\akilafo\Eclipse\CustomerOnboarding\BackEnd\ConversationBackend\bin\Debug\net9.0\Swashbuckle.AspNetCore.Swagger.dll
 C:\Users\akilafo\Eclipse\CustomerOnboarding\BackEnd\ConversationBackend\bin\Debug\net9.0\Swashbuckle.AspNetCore.SwaggerGen.dll
 C:\Users\akilafo\Eclipse\CustomerOnboarding\BackEnd\ConversationBackend\bin\Debug\net9.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\akilafo\Eclipse\CustomerOnboarding\BackEnd\ConversationBackend\obj\Debug\net9.0\ConversationBackend.sourcelink.json
