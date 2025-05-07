@@ -1,0 +1,12 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/obj/Debug/net9.0/ConversationBackend.AssemblyInfoInputs.cache
+/obj/Debug/net9.0/ConversationBackend.AssemblyInfo.cs
+/.vs/ConversationBackend/FileContentIndex
+bin/Debug/net9.0/ConversationBackend.dll
+
+bin/Debug/net9.0/ConversationBackend.exe
+obj/Debug/net9.0/ConversationBackend.AssemblyInfo.cs
+obj/Debug/net9.0/ConversationBackend.AssemblyInfoInputs.cache
