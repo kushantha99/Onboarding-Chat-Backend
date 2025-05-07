@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ConversationBackend")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c70219f6d2580f3bb0f2de718d4ad4d2f4db82a7")]
 [assembly: System.Reflection.AssemblyProductAttribute("ConversationBackend")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ConversationBackend")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
