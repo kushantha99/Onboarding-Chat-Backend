@@ -1,3 +1,17 @@
+<<<<<<< HEAD
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/obj/Debug/net9.0/ConversationBackend.AssemblyInfoInputs.cache
+/obj/Debug/net9.0/ConversationBackend.AssemblyInfo.cs
+/.vs/ConversationBackend/FileContentIndex
+bin/Debug/net9.0/ConversationBackend.dll
+
+bin/Debug/net9.0/ConversationBackend.exe
+obj/Debug/net9.0/ConversationBackend.AssemblyInfo.cs
+obj/Debug/net9.0/ConversationBackend.AssemblyInfoInputs.cache
+=======
 .vs/ConversationBackend/FileContentIndex/e2dc884c-38b1-434c-afb7-8b3bb27707d5.vsidx
 obj/Debug/net9.0/ConversationBackend.AssemblyInfo.cs
 obj/Debug/net9.0/ConversationBackend.AssemblyInfoInputs.cache
@@ -14,3 +28,4 @@ obj/Debug/net9.0/EndpointInfo/ConversationBackend.json
 obj/Debug/net9.0/staticwebassets.development.json
 bin/Debug/net9.0/ConversationBackend.exe
 bin/Debug/net9.0/ConversationBackend.dll
+>>>>>>> akf-connectIDB
