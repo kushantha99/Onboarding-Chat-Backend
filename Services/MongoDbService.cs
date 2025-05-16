@@ -27,5 +27,7 @@ namespace ConversationBackend.Services
         }
 
         public IMongoCollection<Conversation> Conversations => _database.GetCollection<Conversation>("conversations");
+
+        public IMongoCollection<T> GetCollection<T>(string collectionName) => _database.GetCollection<T>(collectionName);
     }
 }

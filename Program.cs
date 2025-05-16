@@ -40,6 +40,7 @@ app.UseHttpsRedirection();
 app.UseCors("AllowAll");
 app.UseAuthorization();
 app.MapControllers();
+app.UseStaticFiles();
 
 // Seed initial data
 using (var scope = app.Services.CreateScope())
