@@ -21,7 +21,7 @@ namespace ConversationBackend.Controllers
 
         [HttpPost]
         public async Task<IActionResult> UploadFile(IFormFile file
-            , string conversationId
+            , string conversationId, string questionId
             )
         {
             if (file == null || file.Length == 0)
@@ -46,6 +46,7 @@ namespace ConversationBackend.Controllers
             var fileDocument = new FileDocument
             {
                 ConversationId = conversationId,
+                QuestionId = questionId,
                 Filename = file.FileName,
                 ContentType = file.ContentType,
                 Data = fileBytes,

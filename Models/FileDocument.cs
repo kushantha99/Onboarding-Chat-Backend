@@ -6,6 +6,7 @@ namespace ConversationBackend.Models
     {
         public ObjectId Id { get; set; }
         public required string ConversationId { get; set; }
+        public required string QuestionId { get; set; }
         public required string Filename { get; set; }
         public required string ContentType { get; set; }
         public required byte[] Data { get; set; }
