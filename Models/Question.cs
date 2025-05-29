@@ -15,5 +15,9 @@
         public string? ValidationKey { get; set; } // Nullable, null for some
         public string? MinDate { get; set; } // Nullable, used in calendar inputs
         public string? MaxDate { get; set; } // Nullable, used in calendar inputs
+        public string? Mincheck { get; set; }
+        public string? Maxcheck { get; set; }
+
+
     }
 }
