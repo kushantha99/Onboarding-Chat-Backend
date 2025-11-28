@@ -3,6 +3,10 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using ConversationBackend.Services;
 using Swashbuckle.AspNetCore.SwaggerGen;
+using ConversationBackend.Services.ServiceInterfaces;
+using ConversationBackend.Repositories.RepositoryInterfaces;
+using ConversationBackend.Repositories;
+using ConversationBackend.DependencyResolution;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -21,6 +25,7 @@ builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 builder.Services.AddSingleton<MongoDbService>();
 //builder.Services.AddTransient<DataSeeder>();
+builder.Services.RegisterServices();
 
 var app = builder.Build();
 
