@@ -29,7 +29,7 @@ namespace ConversationBackend.Repositories
             }
         }
 
-        public async Task<BusinessPartner> GetRefinitivResponse(int businessPartnerId)
+        public async Task<BusinessPartner> GetBusinessPartner(int businessPartnerId)
         {
             try
             {

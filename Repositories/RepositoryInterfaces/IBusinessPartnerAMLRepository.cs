@@ -4,6 +4,6 @@ namespace ConversationBackend.Repositories.RepositoryInterfaces
 {
     public interface IBusinessPartnerAMLRepository
     {
-        Task<BusinessPartner> GetRefinitivResponse(int businessPartnerId);
+        Task<BusinessPartner> GetBusinessPartner(int businessPartnerId);
     }
 }

@@ -1,6 +1,8 @@
 ﻿using ConversationBackend.Models;
-using ConversationBackend.Services.RabbitMQ;
+using ConversationBackend.RabbitMQ;
+using ConversationBackend.RabbitMQ.Events;
 using ConversationBackend.Services.ServiceInterfaces;
+using MediatR;
 using Microsoft.AspNetCore.Mvc;
 
 // For more information on enabling Web API for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
@@ -12,51 +14,46 @@ namespace ConversationBackend.Controllers
     public class BusinessPartnerAMLController : Controller
     {
         private readonly IBusinessPartnerAMLService _businessPartnerAMLService;
-        private readonly IRabbitPublisher _rabbitPublisher;
+        private readonly IEventBusPublisher _publisher;
 
-        public BusinessPartnerAMLController(IBusinessPartnerAMLService businessPartnerAMLService, IRabbitPublisher rabbitPublisher)
+        public BusinessPartnerAMLController(IBusinessPartnerAMLService businessPartnerAMLService, IEventBusPublisher publisher)
         {
             _businessPartnerAMLService = businessPartnerAMLService;
-            _rabbitPublisher = rabbitPublisher;
+            _publisher = publisher;
         }
 
 
         // GET: api/<BusinessPartnerAMLController>
-        //[HttpGet("{businessPartnerId}")]
-        //public async Task<BusinessPartner> GetRefinitivResponse(int businessPartnerId)
-        //{
-        //    try
-        //    {
-        //        return await _businessPartnerAMLService.GetRefinitivResponse(businessPartnerId);
-        //    }
-        //    catch (Exception ex)
-        //    {
-        //        throw;
-        //    }
-        //}
         [HttpGet("{businessPartnerId}")]
-        public IActionResult GetRefinitivResponse(int businessPartnerId)
+        public async Task<BusinessPartner> GetBusinessPartner(int businessPartnerId)
         {
-            _rabbitPublisher.PublishBusinessPartnerRequest(businessPartnerId);
-
-            return Ok(new { message = "Request sent to RabbitMQ" });
+            try
+            {
+                return await _businessPartnerAMLService.GetBusinessPartner(businessPartnerId);
+            }
+            catch (Exception ex)
+            {
+                throw;
+            }
         }
+
         // POST api/<BusinessPartnerAMLController>
-        [HttpPost]
-        public void Post([FromBody] string value)
+        [HttpPost("Initiate")]
+        public async Task<IActionResult> GetRefinitivResponse([FromBody] BusinessPartnerRequestCreatedEvent request)
         {
-        }
-
-        // PUT api/<BusinessPartnerAMLController>/5
-        [HttpPut("{id}")]
-        public void Put(int id, [FromBody] string value)
-        {
-        }
-
-        // DELETE api/<BusinessPartnerAMLController>/5
-        [HttpDelete("{id}")]
-        public void Delete(int id)
-        {
+            try
+            {
+                var res = await _businessPartnerAMLService.GetRefinitivResponse(request);
+                if(res == true)
+                {
+                    return Ok("Event sent to queue");
+                }
+                return BadRequest("Failed to send event to queue");
+            }
+            catch(Exception ex)
+            {
+                return StatusCode(500, $"Internal server error: {ex.Message}");
+            }
         }
     }
 }
