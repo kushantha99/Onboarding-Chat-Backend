@@ -15,6 +15,9 @@ namespace ConversationBackend.DependencyResolution
             services.AddScoped<IBusinessPartnerAMLRepository, BusinessPartnerAMLRepository>();
             services.AddScoped<IAMLRepository, AMLRepository>();
 
+            services.AddScoped<IDRPService, DRPService>();
+            services.AddScoped<IDRPSystemRepository, DRPSystemRepository>();
+
             // RabbirMQ Publisher and Consumer
             //services.AddScoped<IRabbitPublisher, RabbitPublisher>();
             //services.AddHostedService<RabbitConsumer>();
