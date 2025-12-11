@@ -35,6 +35,7 @@ bin/Debug/net9.0/ConversationBackend.dll
 *.v2
 *.json
 *.bin
+**/.vs/
 .vs/ConversationBackend/DesignTimeBuild/.dtbcache.v2
 .vs/ConversationBackend/v17/.futdcache.v2
 .vs/ConversationBackend/v17/.suo
