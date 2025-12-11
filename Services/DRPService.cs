@@ -27,7 +27,6 @@ namespace ConversationBackend.Services
                 dRPRequestCreatedEvent.dRPNicRequestVM = dRPNicRequestVM;
 
                 await _publisher.PublishEvent(dRPRequestCreatedEvent);
-                //await _systemRepository.GetDRPResponse("200006903346");
 
                 return true;
             }

@@ -38,7 +38,7 @@ namespace ConversationBackend.Repositories
 
                 if (dRPLoginResponseVM.RefreshToken == null || dRPLoginResponseVM.AccessToken == null)
                 {
-                    throw new Exception($"Refresh token is null: {dRPLoginResponseVM}");
+                    throw new Exception($"Refresh token or Access token is null: {dRPLoginResponseVM}");
                 }
 
                 newdRPLoginResponseVM = await GetAccessTokenUsingRefreshToken(dRPLoginResponseVM.RefreshToken, dRPLoginResponseVM.AccessToken);
@@ -68,7 +68,6 @@ namespace ConversationBackend.Repositories
                 dRPNicRequestBodyVM.Consent = true;
 
                 dRPNicResponseVM = await GetNicInfomation(newdRPLoginResponseVM.AccessToken, dRPNicRequestBodyVM);
-                Console.WriteLine("RESPONSE NIC DATA: " + System.Text.Json.JsonSerializer.Serialize(dRPNicResponseVM.Idinformation[0].FrontImage));
                 return dRPNicResponseVM;
             }
             catch (Exception ex)

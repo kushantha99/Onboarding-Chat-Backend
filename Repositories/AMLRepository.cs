@@ -52,7 +52,6 @@ namespace ConversationBackend.Repositories
 
                 UTF8Encoding encoding = new UTF8Encoding();
                 byte[] dataByte = encoding.GetBytes(requestData);
-                Console.WriteLine("CHECK 1");
 
                 HttpWebRequest webRequest = (HttpWebRequest)WebRequest.Create(url);
                 webRequest.Method = "POST";
@@ -62,7 +61,6 @@ namespace ConversationBackend.Repositories
                 webRequest.Date = dateTime;
                 webRequest.ContentType = "application/json";
                 webRequest.ContentLength = dataByte.Length;
-                Console.WriteLine("CHECK 2 ");
 
                 if (_ProxyEnable == "1")
                 {
@@ -72,26 +70,19 @@ namespace ConversationBackend.Repositories
 
                 using (Stream dataStream = webRequest.GetRequestStream())
                 {
-                    Console.WriteLine("CHECK 3 ");
-
                     dataStream.Write(dataByte, 0, dataByte.Length);
                 }
-                Console.WriteLine("CHECK  4");
 
                 using (HttpWebResponse response = (HttpWebResponse)webRequest.GetResponse())
                 {
-                    Console.WriteLine("CHECK 5");
-
                     // Get the Response data
                     Stream Answer = response.GetResponseStream();
                     StreamReader _Answer = new StreamReader(Answer);
                     string jsontxt = _Answer.ReadToEnd();
-                    Console.WriteLine("RES 6 ");
 
                     var json = (JObject)JsonConvert.DeserializeObject(jsontxt);
 
                     BusinessPartnerAMLExtVM businessPartnerAMLExtVM = new BusinessPartnerAMLExtVM();
-                    Console.WriteLine("CHECK 7 : " + System.Text.Json.JsonSerializer.Serialize(businessPartnerAMLExtVM));
 
                     businessPartnerAMLExtVM.CaseId = json["caseId"].Value<string>();
                     businessPartnerAMLExtVM.Result = json["results"].ToString();
@@ -101,8 +92,6 @@ namespace ConversationBackend.Repositories
             }
             catch (WebException ex)
             {
-                Console.WriteLine("WEB EXCEPTION: " + ex.Message);
-
                 if (ex.Response != null)
                 {
                     using var resp = (HttpWebResponse)ex.Response;

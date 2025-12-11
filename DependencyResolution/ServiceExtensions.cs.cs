@@ -18,9 +18,6 @@ namespace ConversationBackend.DependencyResolution
             services.AddScoped<IDRPService, DRPService>();
             services.AddScoped<IDRPSystemRepository, DRPSystemRepository>();
 
-            // RabbirMQ Publisher and Consumer
-            //services.AddScoped<IRabbitPublisher, RabbitPublisher>();
-            //services.AddHostedService<RabbitConsumer>();
             services.AddScoped<IEventBusPublisher, EventBusPublisher>();
             services.AddHostedService<EventBusConsumer>();
             services.AddMediatR(cfg =>
