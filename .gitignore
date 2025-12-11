@@ -1,12 +1,8 @@
-######################################
-# Visual Studio / .NET Core gitignore
-######################################
-
-# Build results
+# Build artifacts
 bin/
 obj/
 
-# Visual Studio folders
+# Visual Studio
 .vs/
 
 # User-specific files
@@ -26,21 +22,20 @@ obj/
 # ASP.NET Core static assets
 **/staticwebassets/
 **/staticwebassets.*
-*.runtimeconfig.json
+
+# MSBuild and intermediate
+*.GeneratedMSBuildEditorConfig.editorconfig
+*.nuget.g.props
+*.nuget.g.targets
+*.g.cs
+
+# Rider / Resharper
+.idea/
+*.DotSettings.user
 
 # Others
-*.v2
 *.vsidx
 *.dtbcache.v2
 *.futdcache.v2
-*.lock.json
-
-# Visual Studio backup / temp
-*.tmp
-*.bak
-*.log
 *.old
-
-# JetBrains Rider
-.idea/
-*.DotSettings.user
+*.tmp
