@@ -1,61 +1,46 @@
-<<<<<<< HEAD
-﻿################################################################################
-# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
-################################################################################
+######################################
+# Visual Studio / .NET Core gitignore
+######################################
 
-/obj/Debug/net9.0/ConversationBackend.AssemblyInfoInputs.cache
-/obj/Debug/net9.0/ConversationBackend.AssemblyInfo.cs
-/.vs/ConversationBackend/FileContentIndex
-bin/Debug/net9.0/ConversationBackend.dll
+# Build results
+bin/
+obj/
 
-bin/Debug/net9.0/ConversationBackend.exe
-obj/Debug/net9.0/ConversationBackend.AssemblyInfo.cs
-obj/Debug/net9.0/ConversationBackend.AssemblyInfoInputs.cache
-=======
-.vs/ConversationBackend/FileContentIndex/e2dc884c-38b1-434c-afb7-8b3bb27707d5.vsidx
-obj/Debug/net9.0/ConversationBackend.AssemblyInfo.cs
-obj/Debug/net9.0/ConversationBackend.AssemblyInfoInputs.cache
-/.vs/ConversationBackend/FileContentIndex
-bin/Debug/net9.0/ConversationBackend.dll
-bin/Debug/net9.0/ConversationBackend.dll
-bin/Debug/net9.0/ConversationBackend.staticwebassets.runtime.json
+# Visual Studio folders
+.vs/
 
-obj/Debug/net9.0/staticwebassets.pack.json
-obj/Debug/net9.0/EndpointInfo/ConversationBackend.OpenApiFiles.cache
-obj/Debug/net9.0/staticwebassets/msbuild.ConversationBackend.Microsoft.AspNetCore.StaticWebAssetEndpoints.props
-obj/Debug/net9.0/staticwebassets/msbuild.ConversationBackend.Microsoft.AspNetCore.StaticWebAssets.props
-obj/Debug/net9.0/EndpointInfo/ConversationBackend.json
-obj/Debug/net9.0/staticwebassets.development.json
-bin/Debug/net9.0/ConversationBackend.exe
-bin/Debug/net9.0/ConversationBackend.dll
->>>>>>> akf-connectIDB
+# User-specific files
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Auto-generated
 *.dll
-/bin/Debug/net9.0
-*.dll
-*.v2
+*.exe
+*.pdb
+*.cache
 *.json
 *.bin
-**/.vs/
-.vs/ConversationBackend/DesignTimeBuild/.dtbcache.v2
-.vs/ConversationBackend/v17/.futdcache.v2
-.vs/ConversationBackend/v17/.suo
-.vs/ConversationBackend/v17/DocumentLayout.backup.json
-.vs/ProjectEvaluation/conversationbackend.metadata.v9.bin
-.vs/ProjectEvaluation/conversationbackend.projects.v9.bin
-.vs/ProjectEvaluation/conversationbackend.strings.v9.bin
-bin/Debug/net9.0/ConversationBackend.dll
-bin/Debug/net9.0/ConversationBackend.exe
-bin/Debug/net9.0/ConversationBackend.pdb
-bin/Debug/net9.0/ConversationBackend.staticwebassets.endpoints.json
-obj/Debug/net9.0/apphost.exe
-obj/Debug/net9.0/ConversationBackend.AssemblyInfo.cs
-obj/Debug/net9.0/ConversationBackend.AssemblyInfoInputs.cache
-obj/Debug/net9.0/ConversationBackend.csproj.CoreCompileInputs.cache
-obj/Debug/net9.0/ConversationBackend.csproj.FileListAbsolute.txt
-obj/Debug/net9.0/ConversationBackend.dll
-obj/Debug/net9.0/ConversationBackend.pdb
-obj/Debug/net9.0/ConversationBackend.sourcelink.json
-obj/Debug/net9.0/ref/ConversationBackend.dll
-obj/Debug/net9.0/refint/ConversationBackend.dll
-obj/Debug/net9.0/staticwebassets.build.endpoints.json
-obj/Debug/net9.0/staticwebassets.build.json
+
+# ASP.NET Core static assets
+**/staticwebassets/
+**/staticwebassets.*
+*.runtimeconfig.json
+
+# Others
+*.v2
+*.vsidx
+*.dtbcache.v2
+*.futdcache.v2
+*.lock.json
+
+# Visual Studio backup / temp
+*.tmp
+*.bak
+*.log
+*.old
+
+# JetBrains Rider
+.idea/
+*.DotSettings.user
